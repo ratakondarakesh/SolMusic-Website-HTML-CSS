@@ -1,0 +1,398 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+}
+#sol-music{
+    background-color:#0a183d;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 72px;
+    
+}
+#logo span{
+    color: #fc0254;
+  
+}
+#logo{
+    cursor: pointer;
+    margin-left: 15px;
+    color: white;
+}
+#menu-list ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 50px;
+    margin-left: 10rem;
+    font: weight 1000px;
+}
+#menu-list ul li a{
+    text-decoration: none;  
+    color: white;
+}
+#menu-list ul a:hover{
+    color: #fc0254;
+}
+#login ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+    color: white;
+}
+#login span{
+    color: #fc0254;
+}
+#logo h1{
+    margin: 0;
+    font-weight: 700;
+    
+}
+
+#menu {
+    background-color: #4c4c4c;
+    width: 100%;
+    padding: 20px 50px 20px 40px;       
+    box-sizing: border-box;
+    width: 88%;            
+    margin: 0 auto;  
+    height: 55px;
+    margin-right: 90px;
+}
+#menu > div {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    position: relative;
+}
+#menu > div h3,
+#menu > div i {
+    margin: 0;
+  
+}
+
+#menu .menu-box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    font-size: small;
+    cursor: pointer;
+}
+
+#music{
+    display: flex;
+    justify-content: center;
+    margin-left: 62px;
+    margin-top: 150px;
+    padding-bottom: 100px;
+
+}
+#music h1{
+    font-size: 75px;
+    margin-bottom: 20px;
+    color: white;
+}
+#music-for h1 span{
+    color: #fc0254;
+}
+#music p{
+    font-size: medium;
+    line-height:25px;
+    color: white;
+}
+#music img{
+    width: 100%;
+}
+#music-for{
+    flex: 40%;
+}
+#music-img{
+    flex: 60%;
+}
+#download{
+    padding: 22px 32px;
+    border-radius: 50px;
+    background-color: #fc0356;
+    color: white;
+    border: none;
+    margin-right:8px;
+
+}
+#start{
+    padding: 22px 32px;
+    border-radius: 50px;
+    background-color: #383b70;
+    color: white;
+    border: none;
+    margin-top: 50px;
+
+}
+#unlimited-access-to-100K-tracks{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 100px 40px;
+    color: #0a183d;
+}
+#unlimited-access{
+    flex: 50%;
+    font-size: 30px;
+}
+    
+#para{
+    flex: 50%;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 0px;
+    
+}
+#try-it-now{
+    padding: 22px 36px;
+    border-radius: 50px;
+    background-color: #fc0356;
+    color: white;
+    border: none;
+    margin-top: 20px;
+
+}
+
+#how-it-works{
+    padding: 60px 60px;
+    color: white;
+    padding-right: 50px;
+    margin-top:20px;
+    
+   
+}
+#works{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+#cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 28px;
+    margin-bottom: 50px;
+}
+.card{
+    flex: 33.3;
+}
+
+
+.card p{
+    color: #9da3b1 ;
+    font-size:16px;
+    line-height: 26px;
+}
+
+.card img{
+    background-color: #fc0254;
+    border-radius: 50%;
+    padding: 12px;
+}
+.card h3{
+    font-size: 22px;
+}
+#top-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:45px 55px;
+
+}
+#our-concept-and-artists{
+    background-color: white;
+    padding-bottom: 80px;
+    
+}
+#our-concept{
+    flex: 0.5;
+    font-size: 30px;
+    color: #0a183d;
+
+}
+#right-paragraph{
+    flex: 0.5;
+    font-size: 17px;
+    color: #6a7080;
+    line-height:30px;
+}
+#our-concept-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+
+}
+#our-concept-cards img{
+    width: 100%;
+    border-radius: 35px;
+}
+.concept-card{
+    text-align: center;
+    font-size:medium;
+}
+
+#subscription-from-month{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 65px;
+    font-weight: normal;
+    padding-bottom: 90px;
+
+}
+#subscription{
+    flex: 0.52;
+}
+#list-container{
+    flex: 0.45;
+}
+#subscription h1{
+    font-size:60px;
+    margin-bottom: 0px;
+    color: white;
+}
+#subscription h2{
+    color: #fc0254;
+    font-size: 30px;
+}
+#subscription p{
+ color: #9da3b1;
+ font-size: 16px;
+ line-height: 26px;
+ padding-bottom: 30px;
+
+}
+#subscription button{
+    padding: 22px 36px;
+    border-radius: 30px;
+    background-color: #fc0254;
+    border: none;
+    color: white;
+}
+#list-container {
+    border-radius: 35px;
+    background-color: #1c294a;
+    padding: 40px 50px; 
+    width: fit-content; 
+}
+#list-container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+#list-container li {
+    display: flex;               
+    align-items: center;
+    padding-left: 100px;
+    gap: 15px;
+}
+#list-container li h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+#why-go-premium{
+    background-color: white;
+    padding-bottom: 50px;
+}
+#why-go{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
+}
+#left-premium-container{
+    flex: 0.5;
+    font-size: 32px;
+}
+#premium-para{
+    flex: 0.5;
+    line-height: 30px;
+    color: #000000;
+}
+#premium-features-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.premium-feature img{
+    border-radius:50% ;
+
+}
+.premium-feature h2{
+    font-size: x-large;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.premium-feature p{
+    margin-top: 4px;
+    color: #000000;
+}
+#footer-container{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 70px 60px;
+    padding-bottom: 3.8rem;
+}
+#footer-left-container ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style-type: none;
+    column-gap: 34px;
+    padding-left: 0px;
+    margin-top: 32px;
+}
+#footer-left-container ul a{
+    color: #505565;
+}
+#footer-left-container > div h2{
+    margin-bottom: 7px;
+}
+#footer-left-container{
+    flex: 0.5;
+}
+#footer-left-container small{
+    color: #505565;
+}
+#footer-left-container small span{
+    color: #007bff;
+}
+#footer-left-container h2 span{
+    color: #fc0254;
+}
+#footer-right-container{
+    flex: 0.5;
+    display: flex;
+    list-style-type: none;
+    justify-content: start;
+    column-gap: 90px;
+}
+#footer-right-container ul,#footer-right-container ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px 0px;
+    color: #6a7080;
+}
+#footer-right-container ul li{
+    padding: 8px 0px ;
+
+} 
